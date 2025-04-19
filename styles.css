@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.holder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.item{
+	height: 80px;
+	width: 80px;
+	/* border: 1px solid black; */
+	/* background-color: red; */
+	border: none;
+}
